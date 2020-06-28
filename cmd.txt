@@ -1,0 +1,13 @@
+nodemon es monitoriador de express
+body-parser necesario para express
+node-modules se puede eliminar lo mas importante es package.json
+npm install --save nodemon body-parser express
+
+para instalar sequelize orm para mysql
+npm install --save mysql2 sequelize
+
+necesario para las variables de produccion
+npm install --save-dev dotenv
+
+"start": "node server", //para produccion
+    "dev": "nodemon server" //para dev
