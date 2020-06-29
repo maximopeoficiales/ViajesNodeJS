@@ -11,3 +11,15 @@ npm install --save-dev dotenv
 
 "start": "node server", //para produccion
     "dev": "nodemon server" //para dev
+
+muestra la variable de entorno por  consola
+heroku config | grep CLEARDB_DATABASE_URL 
+
+generar sql con cmd 
+mysqldump -u root -p viajesnodejs > viajesnodejs.sql   
+
+pasar la bd a heroku 
+mysql -u bd075b7bb224d1 -h us-cdbr-east-02.cleardb.com -p heroku_936298598652c1c < viajesnodejs.sql  
+
+
+heroku_936298598652c1c
